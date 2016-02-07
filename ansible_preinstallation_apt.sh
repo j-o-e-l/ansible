@@ -4,7 +4,7 @@
 # This script ensure that your controller system is configured
 # to run ansible. Once this script is run, then next step is to
 # use ansible to configure the controller system, and then any
-# other systems.
+# other systems. This also installs redis for "fact caching."
 ################################################################
 ################################################################
 ### Package Manager Install - Debian / Ubuntu based
