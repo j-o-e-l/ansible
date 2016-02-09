@@ -46,10 +46,12 @@ First you need a hosts file, create a directory called ansible, and edit a file 
 `192.168.145.131 	### target machine`   
 
 Then, from the command line type the following:
-
 ```$ ansible -i hosts targets -m ping -k```  
+This invokes the ansible program, the -i specifies the inventory file to use, *targets* directs the program to just work on the hosts under the header `[targets]`. Finally, the -m tells the ansible program to use the ping module. 
 
-You should see the folling output:
+This ansible ping module, does not use ICMP, but ssh to connect to the hosts specified. If you forgot to connect before (or your host key is not in your ~/.ssh/known_hosts file, you should get prompted during this step.)
+
+You should see the following output:
 
 ```
 SSH password:  
@@ -58,6 +60,6 @@ SSH password:
    	"ping": "pong"  
 }
 ```
-
+Great! Now, we can connect to the machine. Let's use a playbook.
 
 # Objective - Use Ansible to configure the target with a playbook, and roles -- step-by-step.
