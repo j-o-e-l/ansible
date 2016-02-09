@@ -41,5 +41,11 @@ The purpose of these scripts are to setup the most basic version of ansible on y
 If everything worked, you should now have the things you need to use Ansible on your controller machine.
 
 # Objective - Use Ansible to test the ssh connection, and show some variables.
+First you need a hosts file, create a directory called ansible, and edit a file called `hosts` and add the following (make sure to use the IP for your target machine):  
+`[targets]`  
+`192.168.145.131`   
+
+
+`ansible targets -m ping -k`  
 
 # Objective - Use Ansible to configure the target with a playbook, and roles -- step-by-step.
