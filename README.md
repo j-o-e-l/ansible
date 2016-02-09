@@ -42,4 +42,4 @@ If everything worked, you should now have the things you need to use Ansible on 
 
 # Objective - Use Ansible to test the ssh connection, and show some variables.
 
-# Objective - Use Ansible to configure the target, step-by-step.
+# Objective - Use Ansible to configure the target with a playbook, and roles -- step-by-step.
