@@ -14,7 +14,7 @@ If you are using Digial Ocean, select Fedora (23 x64), $5 / month, choose a data
 If you did not use SSH keys, then Digital Ocean will email you your passwords.
 
 ### VMware or VirtualBox
-If you want to setup your controller and target locally, you need to install the operating systems with virtual machine software like [VMware Player](http://www.vmware.com/products/player/ "VMware Player") - free, [Workstation Pro](http://www.vmware.com/products/workstation/ "Workstation Pro") - you can get a 30 day free trial or pay $250 (however, look for student discounts), or [VirtualBox](https://www.virtualbox.org/ "VirtualBox") - free.
+If you want to setup your controller and target locally, you need to install the operating systems with virtual machine software like [VMware Player](http://www.vmware.com/products/player/) - free, [Workstation Pro](http://www.vmware.com/products/workstation/) - you can get a 30 day free trial or pay $250 (however, look for student discounts), or [VirtualBox](https://www.virtualbox.org/) - free.
 
 ## SSH to your controller (as root)
 
