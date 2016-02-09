@@ -46,6 +46,14 @@ First you need a hosts file, create a directory called ansible, and edit a file 
 `192.168.145.131 	### target machine`   
 
 
-`ansible targets -m ping -k`  
+`ansible -i hosts targets -m ping -k`  
+	`$ ansible -i hosts targets -m ping -k`  
+	`SSH password:`  
+	`192.168.145.131 | SUCCESS => {`  
+    	`"changed": false,`   
+    	`"ping": "pong"`  
+	`}`  
+
+
 
 # Objective - Use Ansible to configure the target with a playbook, and roles -- step-by-step.
