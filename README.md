@@ -1,12 +1,10 @@
 # Objective - Create a two systems, an Ansible controller, and a target. Then use Ansible to configure the target, step-by-step.
 
-Before you begin you should start with two linux systems. For best results, you should use a virtual machine or VPS provider. 
+Before you begin you should start with two linux systems. For best results, you should use a virtual machine locally or Virtual Private Server (VPS) provider like Digital Ocean, Linode, or RackSpace. 
 
 ### Digital Ocean
-Digital Ocean works great for this. If you don't have an account they will give you a $10 credit, which will allow you to create these two machines and use them for a month for free. If you don't have an account, here is my referal code:  
-
+Digital Ocean works great for this. If you don't have an account you can get a $10 credit, this will allow you to create these two machines needed for this guide and use them for a month for free. If you don't have an account, here is my referal code:  
 [https://m.do.co/c/5c10ad3a8470](Digital Ocean $10 Code "Digital Ocean $10 Code")  
-
 Your support encourages me to provide these guides, so please sign up.
 
 If you are using Digial Ocean, select Fedora (23 x64), $5 / month, choose a datacenter near you, skip additional options, SSH keys are awesome (use them if you can), select 2 droplets, and name them the following (name them what you want, but to follow along with this guide, use these): **controller**, **target**.
@@ -19,6 +17,16 @@ If you want to setup your controller and target locally, you need to install the
 Getting the machines setup using a virtual machine is beyond the scope of this document. There are plenty of guides that should help you. 
 
 ## SSH to your controller (as root)
+Now, ssh into your controller (as root):  
+
+	$ ssh root@192.168.145.131  
+	The authenticity of host 192.168.145.131 (192.168.145.131) can't be established.    
+	ECDSA key fingerprint is 06:e0:e6:ed:37:ce:1c:af:a4:75:0b:0d:f3:d2:4c:81.    
+	Are you sure you want to continue connecting (yes/no)? y  
+	Please type \'yes\' or \'no\': yes  
+	Warning: Permanently added '192.168.145.131' (ECDSA) to the list of known hosts.  
+	root@192.168.145.131's password:     
+ 
 
 
 ## Getting Started
