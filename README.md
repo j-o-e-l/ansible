@@ -19,15 +19,14 @@ Getting the machines setup using a virtual machine is beyond the scope of this d
 ## SSH to your controller (as root)
 Now, ssh into your controller (as root):  
 
-	$ ssh root@192.168.145.131  
-	The authenticity of host 192.168.145.131 (192.168.145.131) can't be established.    
-	ECDSA key fingerprint is 06:e0:e6:ed:37:ce:1c:af:a4:75:0b:0d:f3:d2:4c:81.    
-	Are you sure you want to continue connecting (yes/no)? y  
-	Please type \'yes\' or \'no\': yes  
-	Warning: Permanently added '192.168.145.131' (ECDSA) to the list of known hosts.  
-	root@192.168.145.131's password:     
- 
-
+`$ ssh root@192.168.145.131`  
+`The authenticity of host 192.168.145.131 (192.168.145.131) cant be established.`    
+`ECDSA key fingerprint is 06:e0:e6:ed:37:ce:1c:af:a4:75:0b:0d:f3:d2:4c:81.`    
+`Are you sure you want to continue connecting (yes no)? y`    
+`Please type yes or no: yes`  
+`Warning: Permanently added 192.168.145.131 (ECDSA) to the list of known hosts.`  
+`root@192.168.145.131 password:`  
+`[root@controller ~]# `  
 
 ## Getting Started
 
