@@ -43,7 +43,7 @@ If everything worked, you should now have the things you need to use Ansible on 
 # Objective - Use Ansible to test the ssh connection, and show some variables.
 First you need a hosts file, create a directory called ansible, and edit a file called `hosts` and add the following (make sure to use the IP for your target machine):  
 `[targets]`  
-`192.168.145.131`   
+`192.168.145.131 	### target machine`   
 
 
 `ansible targets -m ping -k`  
