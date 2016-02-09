@@ -1,4 +1,4 @@
-# Objective - Create a two systems, an Ansible controller, and a target. Then use Ansible to configure the target, step-by-step.
+# Objective - Create a two systems, an Ansible controller, and a target. 
 
 Before you begin you should start with two linux systems. For best results, you should use a virtual machine locally or Virtual Private Server (VPS) provider like Digital Ocean, Linode, or RackSpace. 
 
@@ -36,4 +36,10 @@ First, select the ansible_preinstallation_XXX.sh bash script that suits your ope
 - ansible_preinstallation_dnf.sh - CentOS/RHEL 7 and newer versions of Fedora (like Fedora 23)
 - ansible_preinstallation_apt.sh - Debian / Ubuntu / Kali versions
 
-The purpose of these scripts are to setup the most basic version of ansible on your system.
+The purpose of these scripts are to setup the most basic version of ansible on your system. These scripts assume that you are NOT `root` and you are using `sudo.` If you have logged in as root, you are going to have to modify these scripts slightly -- it is easy, just delete the word `sudo` everywhere you see it.
+
+If everything worked, you should now have the things you need to use Ansible on your controller machine.
+
+# Objective - Use Ansible to test the ssh connection, and show some variables.
+
+# Objective - Use Ansible to configure the target, step-by-step.
