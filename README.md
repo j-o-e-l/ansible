@@ -1,12 +1,21 @@
 # Objective - Create a two systems, an Ansible controller, and a target.
-Before you begin you should start with two linux systems. For best results, you should use a virtual machine or VPS provider. Digital Ocean works great for this. If you don't have an account they will give you a $10 credit, which will allow you to create these two machines and use them for a month for free. If you don't have an account, here is my referal code: https://m.do.co/c/5c10ad3a8470 Your support encourages me to provide content, so please sign up.
+
+Before you begin you should start with two linux systems. For best results, you should use a virtual machine or VPS provider. 
 
 ### Digital Ocean
+Digital Ocean works great for this. If you don't have an account they will give you a $10 credit, which will allow you to create these two machines and use them for a month for free. If you don't have an account, here is my referal code: [https://m.do.co/c/5c10ad3a8470](Digital Ocean $10 Code) Your support encourages me to provide these guides, so please sign up.
+
 If you are using Digial Ocean, select Fedora (23 x64), $5 / month, choose a datacenter near you, skip additional options, SSH keys are awesome (use them if you can), select 2 droplets, and name them the following (name them what you want, but to follow allong with this guide, use these): controller, target.
 
-My suggestion is that you create a new installation, with one administrative user. Make sure that sshd is running, and that you can login and use sudo. Once that is confirmed,  
+If you did not use SSH keys, then Digital Ocean will email you your passwords.
 
-# Getting Started
+### VMware or VirtualBox
+If you want to setup your controller and target locally, you need to install the operating systems with virtual machine software like [VMware Player](http://www.vmware.com/products/player/ "VMware Player"), Workstation Pro, or VirtualBox.
+
+## SSH to your controller (as root)
+
+
+## Getting Started
 
 First, select the ansible_preinstallation_XXX.sh bash script that suits your operating system. 
 
