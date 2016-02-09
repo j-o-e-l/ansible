@@ -9,7 +9,7 @@ Your support encourages me to provide these guides, so please sign up.
 
 If you are using Digial Ocean, select Fedora (23 x64), $5 / month, choose a datacenter near you, skip additional options, SSH keys are awesome (use them if you can), select 2 droplets, and name them the following (name them what you want, but to follow along with this guide, use these): **controller**, **target**.
 
-If you did not use SSH keys, then Digital Ocean will email you your passwords.
+If you did not use SSH keys, then Digital Ocean will email you your passwords. If you uploaded your key (and selected that key when configuring the machines), then no password gets emailed, and you can just ssh in to the machines as root. Skip the next step, and jump down to SSH to your controller.
 
 ### VMware or VirtualBox
 If you want to setup your controller and target locally, you need to install the operating systems with virtual machine software like [VMware Workstation Player - formally known as VMware Player](http://www.vmware.com/products/player/) - you can get a 30 day free trial or pay $150, [Workstation Pro](http://www.vmware.com/products/workstation/) - you can get a 30 day free trial or pay $250 (however, look for student discounts on VMware products), or [VirtualBox](https://www.virtualbox.org/) - free & open source.
