@@ -36,7 +36,7 @@ First, select the ansible_preinstallation_XXX.sh bash script that suits your ope
 - ansible_preinstallation_dnf.sh - CentOS/RHEL 7 and newer versions of Fedora (like Fedora 23)
 - ansible_preinstallation_apt.sh - Debian / Ubuntu / Kali versions
 
-The purpose of these scripts are to setup the most basic version of ansible on your system. These scripts assume that you are NOT `root` and you are using `sudo.` If you have logged in as root, you are going to have to modify these scripts slightly -- it is easy, just delete the word `sudo` everywhere you see it.
+The purpose of these scripts are to setup the most basic version of ansible on your system. These scripts assume that you are `root` and you are NOT using `sudo.` If you have not logged in as root, you are going to have to modify these scripts slightly -- it is easy, just add the word `sudo` in front of the commands, or become the root user.
 
 If everything worked, you should now have the things you need to use Ansible on your controller machine.
 
