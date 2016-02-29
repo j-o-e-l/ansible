@@ -1,7 +1,5 @@
-# LESSON-01
-# Getting Started
-# -------------------------------
-## SSH to your controller (as root)
+# LESSON-00
+## Objective - SSH to your controller (as root)
 Now, ssh into your controller (as root):  
 
 `$ ssh root@192.168.145.131`  
@@ -46,5 +44,3 @@ SSH password:
 }
 ```
 Great! Now, we can connect to the machine. Let's use a playbook.
-
-# Objective - Use Ansible to configure the target with a playbook, and roles -- step-by-step.
