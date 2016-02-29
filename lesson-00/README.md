@@ -43,4 +43,4 @@ SSH password:
    	"ping": "pong"  
 }
 ```
-Great! Now, we can connect to the machine. Let's use a playbook.
+Great! Now, we can connect to the machine. Let's use a playbook, move to Lesson 01.
