@@ -18,25 +18,24 @@
 
 # update of the package lists 
 # optional step below 
-# sudo yum clean all
-sudo yum update -y
+# yum clean all
+yum update -y
 
 # install ansible
-sudo yum install ansible -y
+yum install ansible -y
 
 ################################################################
 ### PIP Installs
 ################################################################
 
 # install pip
-sudo yum install python-pip -y
+yum install python-pip -y
 
 # upgrade pip
-sudo pip install --upgrade pip
+pip install --upgrade pip
 
 # used for debugging ansible playbooks
-sudo pip install ansible-playbook-debugger 
+pip install ansible-playbook-debugger 
 
 # used for creating (sha-512) passwords with python
-sudo pip install passlib
-
+pip install passlib
