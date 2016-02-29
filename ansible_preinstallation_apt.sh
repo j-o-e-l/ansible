@@ -5,7 +5,14 @@
 # to run ansible. Once this script is run, then next step is to
 # use ansible to configure the controller system, and then any
 # other systems. This also installs redis for "fact caching."
+# Assumes running as root.
 ################################################################
+### Proxy Info
+# uncomment if you need to add proxy info
+# MY_HTTPS_PROXY=https://192.168.1.XXX
+# MY_HTTP_PROXY=http://192.168.1.XXX
+# export HTTPS_PROXY=$MY_HTTPS_PROXY
+# export HTTP_PROXY=$MY_HTTP_PROXY
 ################################################################
 ### Package Manager Install - Debian / Ubuntu based
 ################################################################

@@ -6,6 +6,12 @@
 # use ansible to configure the controller system, and then any
 # other systems.
 ################################################################
+### Proxy Info
+# uncomment if you need to add proxy info
+# MY_HTTPS_PROXY=https://192.168.1.XXX
+# MY_HTTP_PROXY=http://192.168.1.XXX
+# export HTTPS_PROXY=$MY_HTTPS_PROXY
+# export HTTP_PROXY=$MY_HTTP_PROXY
 ################################################################
 ### Package Manager Install - Fedora 23 / CentOS 7 based
 ################################################################
