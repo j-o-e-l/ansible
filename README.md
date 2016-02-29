@@ -1,5 +1,5 @@
-# Before we begin.
-# Objective - Create a two systems, an Ansible controller, and a target. 
+## Before we begin.
+### Objective - Create a two systems, an Ansible controller, and a target. 
 
 Before you begin you should start with two linux systems. For best results, you should use a virtual machine locally or Virtual Private Server (VPS) provider like Digital Ocean, Linode, or RackSpace. 
 
