@@ -4,7 +4,7 @@
 # This script ensure that your controller system is configured
 # to run ansible. Once this script is run, then next step is to
 # use ansible to configure the controller system, and then any
-# other systems.
+# other systems. Assumes running as root.
 ################################################################
 ### Proxy Info
 # uncomment if you need to add proxy info
@@ -18,25 +18,25 @@
 
 # update of the package lists 
 # optional step below 
-# sudo dnf clean all
-sudo dnf update -y
+# dnf clean all
+dnf update -y
 
 # install ansible
-sudo dnf install ansible -y
+dnf install ansible -y
 
 ################################################################
 ### PIP Installs
 ################################################################
 
 # install pip
-sudo dnf install python-pip -y
+dnf install python-pip -y
 
 # upgrade pip
-sudo pip install --upgrade pip
+pip install --upgrade pip
 
 # used for debugging ansible playbooks
-sudo pip install ansible-playbook-debugger 
+pip install ansible-playbook-debugger 
 
 # used for creating (sha-512) passwords with python
-sudo pip install passlib
+pip install passlib
 
